@@ -1,38 +1,64 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ #App-header{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  /* font-weight: bold; */
+  color:darkorchid;
 }
+#inputBox{
+  background-color: lightgray;
+  width: 500px;
+  border-color: darkorchid;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.893);
+  font-weight: bold;
+}
+#submitButton{
+  width: 200px;
+  background-color: darkorchid;
+  border-color: darkorchid;
+font-weight: bold;
+font-size: medium;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+#removeButton{
+background-color: black;
+border-color: black;
+align-items: right;
+font-weight: bold;
+font-size: small;
+color: white;
+}
+ #taskList{
+  color: lightgray;
+  font-size: medium;
+  font-weight: bold;
+}
+ol:nth-child(even){
+background-color:darkorchid;
+border-style: solid;
+border-color:indigo;
+border-width:medium;
+padding:5px;
+color: black;
+}
+ol:nth-child(odd){
+  background-color:lightgrey;
+  border-width: medium;
+  border-style: solid;
+  border-color: grey;
+  padding: 5px;
+  color: black;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  ol:hover{
+background-color:lime;
+border-color:lime;
   }
-  to {
-    transform: rotate(360deg);
+  .container{
+text-align: center;
   }
-}
+  ul{
+    display: inline-block;
+  }
